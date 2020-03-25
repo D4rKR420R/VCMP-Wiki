@@ -1,9 +1,24 @@
 ### onServerStart
+```Squirrel
+function onServerStart()
+```
+
+Called when the server started running.
 
 #### Arguments
 
 - None
 
-### Returns
+#### Returns
 
-> Integer - 1 if server started successfully, 0 otherwise
+> integer - 1 if server started successfully, 0 otherwise
+
+#### Example
+```Squirrel
+function onServerStart()
+{
+    print( "Server started!" );
+}
+```
+
+It will print this message to the terminal once you run the server.
