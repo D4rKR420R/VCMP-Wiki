@@ -7,7 +7,7 @@ Called when a player joins the server.
 
 #### Arguments
 
-- CPlayer *player*
+- CPlayer *player* - player's instance
 
 #### Returns
 

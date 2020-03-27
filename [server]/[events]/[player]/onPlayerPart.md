@@ -7,8 +7,8 @@ Called when a player leaves the server.
 
 #### Arguments
 
-- [CPlayer] *player*
-- [integer] *reason*
+- [CPlayer] *player* - player's instance
+- [integer] *reason* - how the player left the server
 
 #### Returns
 

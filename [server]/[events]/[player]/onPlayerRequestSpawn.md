@@ -7,11 +7,11 @@ Called when a player attempts to spawn.
 
 #### Arguments
 
-- [CPlayer] *player*
+- [CPlayer] *player* - player's instance
 
 #### Returns
 
-> Integer - 1 if the player attempts to spawn, 0 otherwise (prevents the player from spawning)
+> integer - 1 if the player attempts to spawn, 0 otherwise (prevents the player from spawning)
 
 #### Example
 ```Squirrel

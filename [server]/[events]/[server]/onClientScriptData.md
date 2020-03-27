@@ -7,14 +7,15 @@ Called when the client-side sends data to the server-side.
 
 #### Arguments
 
-- [CPlayer] *player*
-- [CStream] *stream*
+- [CPlayer] *player* - player's instance
+- [CStream] *stream* - the stream that's holding the data from the client-side
 
 #### Returns
 > void
 
 #### Example
 `store/script/main.nut`
+> :warning: NOTE: Client-side scripts are stored through the following directory path: *store/script*
 ```Squirrel
 function SendStringToServer()
 {

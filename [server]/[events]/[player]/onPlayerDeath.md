@@ -5,12 +5,12 @@ function onPlayerDeath( player, reason )
 
 Called when a player dies.
 
-> :warning: NOTE: This callback is only called if the server wasn't able to identify any killer. Specifically, dead from fire, suffocation, etc.
+> :warning: NOTE: This callback is only called if the server wasn't able to identify any killer. Specifically, dead from fire, drowning, suicide, etc.
 
 #### Arguments
 
-- [CPlayer] *player*
-- [integer] *reason*
+- [CPlayer] *player* - player's instance
+- [integer] *reason* - how the player died
 
 #### Returns
 

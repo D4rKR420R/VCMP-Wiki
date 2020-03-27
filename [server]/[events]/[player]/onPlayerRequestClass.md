@@ -7,10 +7,10 @@ Called when a player scrolls through the team selection screen.
 
 #### Arguments
 
-- [CPlayer] *player*
-- [integer] *classID*
-- [integer] *team*
-- [integer] *skin*
+- [CPlayer] *player* - player's instance
+- [integer] *classID* - what class ID is he using
+- [integer] *team* - what team he's in
+- [integer] *skin* - what skin he's using
 
 #### Returns
 
