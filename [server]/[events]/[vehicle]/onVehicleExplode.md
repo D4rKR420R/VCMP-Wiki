@@ -12,3 +12,12 @@ This event is called by the server when a vehicle blows up.
 
 #### Returns
 > Void
+
+### Example
+
+```Squirrel
+function onVehicleExplode(vehicle)
+{
+  Message(""+vehicle.ID+" blew up");
+}
+```
