@@ -1,4 +1,7 @@
 ### onCheckpointEntered
+```Squirreil
+function onCheckpointEntered(player,checkpoint)
+```
 
 This event gets called when a player enters a checkpoint.
 
