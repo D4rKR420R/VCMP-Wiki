@@ -39,43 +39,43 @@ function onPlayerActionChange( player, oldAction, newAction )
     local cond = ""; // Define variable to store the condition
     switch( newAction )
     {
-        case pAction.None:
+        case pActions.None:
             cond = "none";
         break;
-        case pAction.Normal:
+        case pActions.Normal:
             cond = "normal";
         break;
-        case pAction.Aiming:   
+        case pActions.Aiming:   
             cond = "aiming";
         break;
-        case pAction.Shooting:
+        case pActions.Shooting:
             cond = "shooting";
         break;
-        case pAction.Jumping:
+        case pActions.Jumping:
             cond = "jumping";
         break;
-        case pAction.OnGround:
+        case pActions.OnGround:
             cond = "lying on the ground";
         break;
-        case pAction.GettingUp:
+        case pActions.GettingUp:
             cond = "getting up";
         break;
-        case pAction.JumpingFromVeh:
+        case pActions.JumpingFromVeh:
             cond = "jumping from vehicle";
         break;
-        case pAction.Driving:
+        case pActions.Driving:
             cond = "driving";
         break;
-        case pAction.Drying:
+        case pActions.Drying:
             cond = "dying";
         break;
-        case pAction.Wasted:
+        case pActions.Wasted:
             cond = "wasted";
         break;
-        case pAction.EnteringVeh:
+        case pActions.EnteringVeh:
             cond = "entering a vehicle";
         break;
-        case pAction.ExitingVeh:
+        case pActions.ExitingVeh:
             cond = "exiting a vehicle";
         break;
     }
