@@ -6,6 +6,8 @@ function onVehicleMove(vehicle, LastX, LastY, LastZ, NewX, NewY, NewZ)
 
 This event gets called when the vehicle's position is different compared to the last registered vehicle position in the previous onServerFrame plugin call.
 
+> ⚠️ NOTE: Computationally expensive operation in this event and alike events (onPlayerMove, onServerFrame) may cause lagging.
+
 #### Arguments
 
 - [CVehicle] *vehicle* - Vehicle that moved.
