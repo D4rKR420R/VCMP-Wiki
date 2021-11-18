@@ -1,5 +1,10 @@
 ### onVehicleExplode
 
+```Squirrel
+function onVehicleExplode( vehicle )
+```
+
+
 This event is called by the server when a vehicle blows up.
 #### Arguments
 
