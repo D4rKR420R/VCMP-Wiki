@@ -1,6 +1,7 @@
 ### onObjectShot
 ```Squirrel
-function onObjectShot(object,player,weapon)```
+function onObjectShot(object,player,weapon)
+```
 
 This function gets called when a player is shooting an object.
 
