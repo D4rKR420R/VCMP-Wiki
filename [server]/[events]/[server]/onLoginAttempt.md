@@ -3,7 +3,7 @@
 function onLoginAttempt( playerName, password, ipAddress )
 ```
 
-Called a player is attempting to connect to the server.
+Called when a player is attempting to connect to the server.
 
 #### Arguments
 
