@@ -10,7 +10,7 @@ Disconnects from the server without quitting the game.
 ### /reconnect
 Reconnect to the server.
 
-### /connect `<ip> <port> [<nickname> [<server password> [<user password>]]]`
+### /connect `<ip>` `<port>` `[<nickname> [<server password> [<user password>]]]`
 Connect to a server. Fields enclosed in square brackets are optional.
 
 > Note: /connect and /reconnect only works if you are disconnected from the server.
@@ -24,10 +24,10 @@ Attempt to commit suicide.
 ### /screenshot
 Takes a screenshot of the game.
 
-### font `[gap] [fontname]`
+### font `[gap]` `[fontname]`
 Changes the font family of console input area.
 
-> Note: This does not change font of the whole console. To change that, you need to use `/setconfig con_fontname [fontname]`.
+> Note: This has the same effect as using `/setconfig con_fontname [fontname]` with `/setconfig con_fontgap [gap]`.
 
 ### /showdebug `[0/1]`
 Show or hide client debuglog ingame.
@@ -39,7 +39,7 @@ Toggles shot position logging. If enabled, logs the position of shot along with 
 
 > Note: /traceshots is non-persistent, it will be reset once you the quit the game. Only the shots that collide with buildings are logged. Shots from shotguns and snipers are not logged.
 
-### /msg `[playerID] [text]`
+### /msg `[playerID]` `[text]`
 Send a private message to a player.
 
 ### /infgetweaponid `[weapon_name]`
@@ -66,7 +66,7 @@ Lists the config values of the client stored in `vcmp_config.txt`.
 ### /getconfig `[name]`
 Gets the value of a specified configuration.
 
-### /setconfig `[name] [value]`
+### /setconfig `[name]` `[value]`
 Sets the value of a specified configuration.
 
 > Documentation for client config can be found on [this topic.](https://forum.vc-mp.org/?topic=12.0)
