@@ -1,5 +1,5 @@
 ### onCheckpointEntered
-```Squirreil
+```Squirrel
 function onCheckpointEntered(player,checkpoint)
 ```
 
