@@ -9,8 +9,8 @@ Called when a player enters a sphere.
 
 ### Arguments
 
-- [CPlayer] *player* - the player who enters the sphere
-- [CSphere] *sphere* - the sphere object
+- [CPlayer] *player* - the player's instance, who enters the sphere
+- [CSphere] *sphere* - the sphere instance
 
 ### Returns
 > void
@@ -22,4 +22,4 @@ function OnSphereEntered(player, sphere) {
 }
 ```
 
-This will output the ID of the sphere once a player enters a sphere.
+This will output the ID of the sphere when a player enters a sphere.
